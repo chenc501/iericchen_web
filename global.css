@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap');
+
+#imgmain1 {display:block;}
+#imgmain2 {display:none}
+
+html {
+	font-family: "Raleway", serif;
+	color: #848081; 
+	background:#f1f0f0;
+	display: block; 
+}
+body {
+	background-color:#f1f0f0;
+	margin: 0 auto;
+}
+
+footer{
+	width:100%;
+	text-align: center;
+	font-family: "Raleway", serif; 
+	font-size: 100%;
+	background-color:#848081;
+	padding: 0.5vh;
+	font-weight: 300;
+	color: #f1f0f0;
+	margin-top: 1vw;
+	position: relative;
+
+ }
+
+ nav{
+ padding-top:  4vh;
+ padding-bottom:  4vh;
+ background-color:#576e74;
+}
+nav a{
+	text-decoration: none;
+	color:#f1f0f0;
+}
+
+#name{
+	display: block;
+	font-size: 24px;
+	position: absolute;
+	font-weight: 700;
+	margin-left: 5.5vw;
+	transition: .5s ease;
+}
+
+
+#name:hover {
+  transform: scale(1.02);
+}
+#bar{
+	text-decoration: none;
+	 position: relative;
+	 text-align: right;
+	 margin-right: 5.5vw;
+}
+
+/*///////////////////Index Page//////////////////*/
+
+.ThumbNail{
+	margin-left: auto;
+	margin-right: auto;	
+	display: block;
+	text-align: center;
+	width: 79vw;
+}
+
+.ThumbNail img{
+	width: 350pt;
+	margin: 2vw;
+	opacity: 1;
+	transition: .5s ease;
+
+	}
+
+.ThumbNail img:hover {
+  opacity: 0.5;
+}
+
+.ThumbTitle{
+	display: inline-block;
+	margin-left: 13vw;
+}
+
+/*////////////About Page/////////////////*/
+
+
+main{
+ padding-top:  4vh;
+ padding-bottom:  4vh;
+ background-color:#f1f0f0;
+}
+
+
+#links{
+	display: block;
+	position: absolute;
+	width: 50%;
+	text-align: left;
+	margin-left: 10vw;
+
+}
+
+#links a{
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 700;
+	color:#848081;
+}
+
+
+#bio{
+	 width: 50%;
+	 text-align: left;
+	 margin-left: 45vw;
+	 font-size: 24px;
+	font-weight: 700;
+	margin-top: 10vw;
+}
+
+#biopic img{
+	display: block;
+	margin-left: 9vw;
+	width:250pt;
+	object-fit: cover; 
+	margin-top:-10vw;
+	margin-bottom: 2vw;
+
+}
+
+/*//////inside info/////*/
+
+
+#mainbar{
+	background-color: rgba(241, 240, 240, 0.2);
+	width: 100vw;
+	z-index: 1;
+
+}
+
+#mainbar a{
+	color:#848081;
+}
+
+.info{
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	position: relative;
+	z-index: 0;
+}
+
+.info img { 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+	width: 85%;
+	height: auto;
+ }
+
+ #returnword{
+ 	margin-left: 7.5vw;
+	width: 50pt;
+	transition: .5s ease;
+ }
+
+ #returnword:hover {
+  transform: scale(1.2);
+}
+
+ /*//////////////home page////////////////*/
+
+ .home img { 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+	width: 80%;
+	height: auto;
+	transition: .5s ease;
+ }
+
+
+.home img:hover {
+  transform: scale(1.01);
+  opacity: 0.9;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+ html {
+	font-size: 3.5vw;
+}
+
+footer{
+	font-size: 80%;
+	padding-bottom: 1vw;
+ }
+
+ nav{
+ padding-top:  3.5vh;
+ padding-bottom:  3.5vh;
+}
+
+nav a{
+	font-size: 3vw;
+}
+
+#name{
+	font-size: 4vw;
+}
+
+/*//////////Index Page////////////*/
+
+
+.ThumbNail img{
+	width: 80vw;
+	margin: 1.5vw;
+
+	}
+
+.ThumbTitle{
+	margin-left: 10vw;
+	font-size: 5vw;!
+}
+
+/*////////About Page///////////////*/
+
+main{
+ padding-top:  1vh;
+}
+
+#links{
+	position: relative;
+}
+
+#links a{
+	font-size: 6vw;
+}
+
+
+#bio{
+	 width: 80%;
+	 margin-left: 10vw;
+	 font-size: 5vw;
+	 margin-top: 5vw;
+	 padding-bottom: 5vw;
+}
+
+#biopic img{
+	margin-left: 10vw;
+	width:80vw;
+	margin-bottom: 4vw;
+	margin-top: 0.5vw;
+
+}
+
+/*///////inside info//////*/
+
+
+
+.info{
+	margin-top: 2vw;
+	margin-bottom: 1vw;
+}
+
+
+
+.info img { 
+	width: 95%;!
+ }
+
+ #returnword{
+ 	margin-left: 3vw;
+	width: 10vw;
+ }
+
+
+
+ /*////////home page//////*/
+
+ .home img { 
+	width: 85%;
+	height: auto;
+ }
+
+#imgmain1 {display: none;}
+#imgmain2 {display: block;}
+
+}
+
+/*////////////////////////Desktop Mode///////////////////////////////////*/
+
