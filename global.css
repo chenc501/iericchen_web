@@ -58,7 +58,7 @@ nav a{
 	 margin-right: 5.5vw;
 }
 
-/*///////////////////Index Page//////////////////*/
+/*///////////////////Works Page//////////////////*/
 
 .ThumbNail{
 	margin-left: auto;
@@ -190,8 +190,81 @@ main{
   transform: scale(1.01);
   opacity: 0.9;
 }
+/*////////////////////ipad Screen////////////////*/
+@media only screen 
+and (min-device-width : 700px) and (max-device-width : 1024px)  { 
+
+html {
+	font-size: 2vw;
+}
+
+footer{
+	font-size: 70%;
+	padding-bottom: 1vw;
+ }
+
+ nav{
+ padding-top:  3.5vh;
+ padding-bottom:  3.5vh;
+}
+
+nav a{
+	font-size: 17px;
+}
+
+#name{
+	font-size: 20px;
+}
+
+/*//////////Works Page////////////*/
+
+.ThumbNail{
+	width: 100vw;
+}
+
+.ThumbNail img{
+	width: 40vw;
+	margin: 1vw;
+
+	}
+
+.ThumbTitle{
+	margin-left: 7vw;
+	font-size: 3vw;!
+}
+
+/*////////About Page///////////////*/
+
+main{
+ padding-top:  2vh;
+}
+
+#links {
+	padding-top:2vh;
+}
+
+#bio{
+padding-left: 4vw;
+}
+
+#biopic img{
+	width:220pt;
+}
 
 
+}
+
+/*///////inside info//////*/
+
+
+ #returnword{
+ 	margin-left: 7vw;
+	width: 7vw;
+ }
+
+}
+
+/*////////////////////Phone Screen////////////////*/
 
 @media only screen and (max-width: 700px) {
 
@@ -295,6 +368,4 @@ main{
 #imgmain2 {display: block;}
 
 }
-
-/*////////////////////////Desktop Mode///////////////////////////////////*/
 
