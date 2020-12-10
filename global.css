@@ -3,6 +3,7 @@
 #imgmain1 {display:block;}
 #imgmain2 {display:none}
 
+ 
 html {
 	font-family: "Raleway", serif;
 	color: #848081; 
@@ -37,6 +38,8 @@ nav a{
 	text-decoration: none;
 	color:#f1f0f0;
 }
+
+
 
 #name{
 	display: block;
@@ -201,7 +204,7 @@ video {
 }
 /*////////////////////21 inch imac screen////////////////*/
 @media only screen 
-   and (min-width : 1920px) and (max-width : 2304px) { 
+   and (min-width: 1920px)  and (max-width: 2304px)  { 
 
 html {
 	display: block; 
@@ -292,6 +295,7 @@ video {
 
  #returnword{
  	margin-left: 17.5vw;
+ }
  }
 
 /*////////////////////ipad Screen////////////////*/
