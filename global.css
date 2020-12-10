@@ -161,7 +161,7 @@ main{
 	height: auto;
  }
 
-.info video { 
+video { 
 	display: block;
 	margin-left: auto;
 	margin-right: auto;	
@@ -199,6 +199,101 @@ main{
   transform: scale(1.01);
   opacity: 0.9;
 }
+/*////////////////////21 inch imac screen////////////////*/
+@media only screen 
+   and (min-width : 1920px) and (max-width : 2304px) { 
+
+html {
+	display: block; 
+}
+body {
+	margin: 0 auto;
+}
+
+nav{
+ padding-top:  2vh;
+ padding-bottom:  2vh;
+}
+
+footer{
+	width:100%;
+	font-size: 100%;
+	padding: 0.05vh;
+	font-weight: 300;
+	color: #f1f0f0;
+	margin-top: 0.5vw;
+
+ }
+
+ nav{
+ padding-top:  3vh;
+ padding-bottom:  3vh;
+}
+
+ /*//////////////home page////////////////*/
+
+ .home img { 
+	width: 65%;
+	margin-top: 1vw;
+ }
+
+/*///////////////////Works Page//////////////////*/
+
+.ThumbNail{
+	width: 79vw;
+}
+
+.ThumbNail img{
+	max-width: 100%;
+/*	width: 450pt;*/
+	margin: 2vw;
+
+	}
+
+.ThumbTitle{
+	margin-left: 16vw;
+}
+
+/*////////////About Page/////////////////*/
+
+
+main{
+ padding-top:  4vh;
+ padding-bottom:  4vh;
+ background-color:#f1f0f0;
+}
+
+
+#links{
+	margin-left: 12vw;
+}
+
+
+#bio{
+	 margin-left: 40vw;
+}
+
+#biopic img{
+	margin-left: 12vw;
+	margin-top:-6vw;
+
+
+}
+
+/*//////inside info/////*/
+
+.info img { 
+	width: 65%;
+ }
+
+video { 
+	width: 65%;
+ }
+
+ #returnword{
+ 	margin-left: 17.5vw;
+ }
+
 /*////////////////////ipad Screen////////////////*/
 @media only screen 
 and (min-device-width : 700px) and (max-device-width : 1024px)  { 
