@@ -3,7 +3,6 @@
 #imgmain1 {display:block;}
 #imgmain2 {display:none}
 
- 
 html {
 	font-family: "Raleway", serif;
 	color: #848081; 
@@ -39,8 +38,6 @@ nav a{
 	color:#f1f0f0;
 }
 
-
-
 #name{
 	display: block;
 	font-size: 24px;
@@ -63,7 +60,7 @@ nav a{
 
 /*///////////////////Works Page//////////////////*/
 
-.ThumbNail{
+.thumbnail{
 	margin-left: auto;
 	margin-right: auto;	
 	display: block;
@@ -71,7 +68,7 @@ nav a{
 	width: 79vw;
 }
 
-.ThumbNail img{
+.thumbnail img{
 	width: 350pt;
 	margin: 2vw;
 	opacity: 1;
@@ -79,11 +76,11 @@ nav a{
 
 	}
 
-.ThumbNail img:hover {
+.thumbnail img:hover {
   opacity: 0.5;
 }
 
-.ThumbTitle{
+.thumbtitle{
 	display: inline-block;
 	margin-left: 13vw;
 }
@@ -202,6 +199,7 @@ video {
   transform: scale(1.01);
   opacity: 0.9;
 }
+
 /*////////////////////21 inch imac screen////////////////*/
 @media only screen 
    and (min-width: 1920px)  and (max-width: 2304px)  { 
@@ -242,18 +240,18 @@ footer{
 
 /*///////////////////Works Page//////////////////*/
 
-.ThumbNail{
+.thumbnail{
 	width: 79vw;
 }
 
-.ThumbNail img{
+.thumbnail img{
 	max-width: 100%;
 /*	width: 450pt;*/
 	margin: 2vw;
 
 	}
 
-.ThumbTitle{
+.thumbtitle{
 	margin-left: 16vw;
 }
 
@@ -296,7 +294,7 @@ video {
  #returnword{
  	margin-left: 17.5vw;
  }
- }
+ 
 
 /*////////////////////ipad Screen////////////////*/
 @media only screen 
@@ -326,17 +324,17 @@ nav a{
 
 /*//////////Works Page////////////*/
 
-.ThumbNail{
+.thumbnail{
 	width: 100vw;
 }
 
-.ThumbNail img{
+.thumbnail img{
 	width: 40vw;
 	margin: 1vw;
 
 	}
 
-.ThumbTitle{
+.thumbtitle{
 	margin-left: 7vw;
 	font-size: 3vw;!
 }
@@ -399,13 +397,13 @@ nav a{
 /*//////////Index Page////////////*/
 
 
-.ThumbNail img{
+.thumbnail img{
 	width: 80vw;
 	margin: 1.5vw;
 
 	}
 
-.ThumbTitle{
+.thumbtitle{
 	margin-left: 10vw;
 	font-size: 5vw;!
 }
