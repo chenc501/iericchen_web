@@ -1,0 +1,42 @@
+<extends src="templates/base.html">
+  <block name="main">
+    <article class="container p-4 md:mx-auto space-y-4">
+      <div>
+        <!-- poster -->
+        <video
+          class="w-full"
+          src="/assets/visual-design/Light/Light.webm"
+          autoplay
+          loop
+          muted
+          playsinline
+        ></video>
+
+        <!-- description img -->
+        <figure class="w-full">
+          <img
+            src="/assets/visual-design/Light/Light-2.jpg"
+            alt="description"
+          />
+        </figure>
+      </div>
+
+      <!-- showcase -->
+      <iframe
+        title="showcase"
+        src="https://chenc501.github.io/web_interaction/performance1/index.html"
+        class="w-full h-screen-9/10"
+      ></iframe>
+
+      <!-- back -->
+      <a
+        href="/works.html"
+        class="block w-24 transform hover:scale-110 transition-transform ease-in-out duration-300"
+      >
+        <span class="hidden">back to works</span>
+
+        <img src="/assets/BackIcon.png" alt="back icon image" />
+      </a>
+    </article>
+  </block>
+</extends>
