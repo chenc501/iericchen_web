@@ -25,9 +25,7 @@ function nextFrame() {
     el.addEventListener("click", async (evt) => {
       evt.preventDefault();
 
-      document
-        .querySelector("header > div.transition-transform")
-        .classList.add("-translate-y-full");
+      document.querySelector("header").classList.add("-translate-y-full");
 
       await wait(1000);
 
@@ -38,6 +36,7 @@ function nextFrame() {
 
 (function () {
   const scrollToTop = document.querySelector("#scroll-to-top");
+  if (!scrollToTop) return;
 
   scrollToTop.addEventListener("click", () =>
     window.scrollTo({ top: 0, behavior: "smooth" })

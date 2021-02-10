@@ -17,6 +17,13 @@ const headElements = {
       content: "width=device-width, initial-scale=1",
     },
   ],
+  link: [
+    {
+      rel: "stylesheet",
+      href:
+        "https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap",
+    },
+  ],
   title: "Web Starter Kit",
 };
 
