@@ -8,9 +8,9 @@
     "postcss:build": "postcss src/styles/index.pcss -o src/styles/index.css --env production",
     "parcel:serve": "parcel src/index.html",
     "parcel:watch": "parcel watch src/index.html",
-    "parcel:build": "parcel build src/index.html --public-url /iericchen_web/",
+    "parcel:build": "parcel build src/index.html --public-url /iericchen_web/ -d public",
     "clean": "rm -rf dist .cache",
-    "gh:deploy": "gh-pages -d dist",
+    "gh:deploy": "gh-pages -d public",
     "build": "npm-run-all -s clean postcss:build parcel:build",
     "start": "npm-run-all -s clean -p postcss:watch parcel:serve",
     "deploy": "npm-run-all -s build gh:deploy"
