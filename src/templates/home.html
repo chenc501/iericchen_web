@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <posthtml-head-elements></posthtml-head-elements>
+
+    <link rel="stylesheet" href="~/styles/index.css" />
+  </head>
+
+  <body class="min-h-screen flex flex-col">
+    <!-- header -->
+    <include
+      src="components/header.html"
+      locals='{
+        "className": "text-gray"
+      }'
+    ></include>
+
+    <!-- main -->
+    <main class="flex-1">
+      <block name="main"></block>
+    </main>
+
+    <script src="~/scripts/index.js"></script>
+  </body>
+</html>

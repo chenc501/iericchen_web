@@ -1,0 +1,103 @@
+<extends src="templates/base.html">
+  <block name="main">
+    <!-- section 1 -->
+    <include
+      src="components/product-list.html"
+      locals='{
+          "title": "Visual Design",
+          "products": [
+            { 
+              "name": "Light",
+              "href": "/visuals/light.html",
+              "img": "assets/visual-design/Light/Light-Thumbnail.jpg"
+            },
+            { 
+              "name": "Dumpling",
+              "href": "/visuals/dumpling.html",
+              "img": "assets/visual-design/Dumpling/Dumpling-Thumbnail.jpg"
+            },
+            { 
+              "name": "Emote",
+              "href": "/visuals/emote.html",
+              "img": "assets/visual-design/Emote/Emote-Thumbnail.jpg"
+            },
+            { 
+              "name": "PW",
+              "href": "/visuals/pw.html",
+              "img": "assets/visual-design/PW/PW-Thumbnail.jpg"
+            },
+            { 
+              "name": "SA",
+              "href": "/visuals/sa.html",
+              "img": "assets/visual-design/SA/SA-Thumbnail.jpg"
+            },
+            { 
+              "name": "Soap",
+              "href": "/visuals/soap.html",
+              "img": "assets/visual-design/Soap/Soap-Thumbnail.jpg"
+            },
+            { 
+              "name": "Branding",
+              "href": "/visuals/branding.html",
+              "img": "assets/visual-design/Branding/Branding-Thumbnail.jpg"
+            },
+            { 
+              "name": "Posters",
+              "href": "/visuals/posters.html",
+              "img": "assets/visual-design/Posters/Posters-Thumbnail.jpg"
+            }
+          ]
+        }'
+    ></include>
+
+    <!-- section 2 -->
+    <include
+      src="components/product-list.html"
+      locals='{
+          "title": "Product Design",
+          "products": [
+            { 
+              "name": "AdjusTable",
+              "href": "/products/adjustable.html",
+              "img": "assets/product-design/AdjusTable/AdjusTable-Thumbnail.jpg"
+            },
+            { 
+              "name": "Connect4",
+              "href": "/products/connect4.html",
+              "img": "assets/product-design/Connect4/Connect4-Thumbnail.jpg"
+            },
+            { 
+              "name": "T42",
+              "href": "/products/T42.html",
+              "img": "assets/product-design/T42/T42-Thumbnail.jpg"
+            },
+            { 
+              "name": "Dizzedy",
+              "href": "/products/dizzedy.html",
+              "img": "assets/product-design/Dizzedy/Dizzedy-Thumbnail.jpg"
+            },
+            { 
+              "name": "EmergenSee",
+              "href": "/products/emergen_see.html",
+              "img": "assets/product-design/EmergenSee/EmergenSee-Thumbnail.jpg"
+            },
+            { 
+              "name": "MOD",
+              "href": "/products/mod.html",
+              "img": "assets/product-design/MOD/MOD-Thumbnail.jpg"
+            },
+            { 
+              "name": "PalmTree",
+              "href": "/products/palmtree.html",
+              "img": "assets/product-design/PalmTree/PalmTree-Thumbnail.jpg"
+            },
+            { 
+              "name": "Henry",
+              "href": "/products/henry.html",
+              "img": "assets/product-design/Henry/Henry-Thumbnail.jpg"
+            }
+          ]
+        }'
+    ></include>
+  </block>
+</extends>

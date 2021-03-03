@@ -1,0 +1,55 @@
+<extends src="templates/base.html">
+  <block name="main">
+    <article
+      class="max-w-screen-sm lg:max-w-screen-xl p-8 mx-auto text-gray lg:flex space-y-8"
+    >
+      <aside class="space-y-6">
+        <!-- contact -->
+        <section>
+          <h2 class="md:text-lg">Contact</h2>
+
+          <address class="text-lg md:text-2xl font-bold">
+            <a href="mailto:chiahua0307@gmail.com">chiahua0307@gmail.com</a>
+          </address>
+        </section>
+
+        <!-- follow -->
+        <section>
+          <h2 class="md:text-lg">Follow</h2>
+
+          <address class="flex flex-col text-lg md:text-2xl font-bold">
+            <a href="https://www.linkedin.com/in/eric-chen-222a82116"
+              >LinkedIn</a
+            >
+
+            <a href="https://www.instagram.com/iericchen">Instagram</a>
+          </address>
+        </section>
+
+        <!-- CV -->
+        <p class="text-xs md:text-base py-4">CV on request.</p>
+
+        <!-- picture -->
+        <figure class="hidden lg:block w-80">
+          <img src="assets/Eric.JPG" alt="Eric picture" />
+        </figure>
+      </aside>
+
+      <!-- introduce -->
+      <p class="text-lg font-bold lg:ml-40 lg:py-28">
+        Eric Chen is one of the aliens lived in NYC and observing humans. He
+        graduated from Parsons School of Design in Product Design major and
+        Communciation Design minor. His past experience consisting of both 2D
+        graphics and 3D prototyping, from hand-size products to physical spaces.
+        He has worked in a variety of fields, including furniture, lighting,
+        home goods, consumer products, fashion and architecture. His goal is to
+        make the earth a more romantic place through design and art.
+      </p>
+
+      <!-- picture -->
+      <figure class="lg:hidden">
+        <img src="assets/Eric.JPG" alt="Eric picture" />
+      </figure>
+    </article>
+  </block>
+</extends>

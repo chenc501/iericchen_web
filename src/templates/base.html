@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <posthtml-head-elements></posthtml-head-elements>
+
+    <link rel="stylesheet" href="~/styles/index.css" />
+  </head>
+
+  <body class="min-h-screen flex flex-col">
+    <!-- header -->
+    <include
+      src="components/header.html"
+      locals='{
+        "className": "bg-green text-white"
+      }'
+    ></include>
+
+    <!-- main -->
+    <main class="flex-1">
+      <block name="main"></block>
+    </main>
+
+    <!-- footer -->
+    <include src="components/footer.html"></include>
+
+    <!-- scroll to top -->
+    <include src="components/scroll-to-top.html"></include>
+
+    <script src="~/scripts/index.js"></script>
+  </body>
+</html>

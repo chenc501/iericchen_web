@@ -1,0 +1,44 @@
+<extends src="templates/base.html">
+  <block name="main">
+    <article class="container p-4 md:mx-auto space-y-4">
+      <div>
+        <!-- poster -->
+        <video class="w-full" autoplay loop muted playsinline>
+          <source
+            src="/assets/visual-design/Dumpling/Dumpling.webm"
+            type="video/webm"
+          />
+          <source
+            src="/assets/visual-design/Dumpling/Dumpling.mp4"
+            type="video/mp4"
+          />
+        </video>
+
+        <!-- description img -->
+        <a
+          href="https://chenc501.github.io/web_interaction/interaction/index.html"
+        >
+          <span class="hidden">
+            link to Dumpling
+          </span>
+
+          <img
+            class="w-full"
+            src="/assets/visual-design/Dumpling/Dumpling-2.jpg"
+            alt="description"
+          />
+        </a>
+      </div>
+
+      <!-- back -->
+      <a
+        href="/works.html"
+        class="block w-24 transform hover:scale-110 transition-transform ease-in-out duration-300"
+      >
+        <span class="hidden">back to works</span>
+
+        <img src="/assets/BackIcon.png" alt="back icon image" />
+      </a>
+    </article>
+  </block>
+</extends>
