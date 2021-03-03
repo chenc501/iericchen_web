@@ -24,7 +24,7 @@ const headElements = {
         "https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap",
     },
   ],
-  title: "Web Starter Kit",
+  title: "ERIC CHIA-HUA CHEN",
 };
 
 const root = "src";
