@@ -10,7 +10,7 @@ const headElements = {
     {
       name: "description",
       content:
-        "A front-end template that helps you build fast, modern mobile web apps.",
+        "Eric Chen's Portfolio Site",
     },
     {
       name: "viewport",
